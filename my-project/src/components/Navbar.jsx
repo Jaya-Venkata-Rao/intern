@@ -27,7 +27,7 @@ const Navbar = () => {
         <h1 className="text-xl font-bold text-white">
           Kingsukh <br /> Guest House
         </h1>
-        <ul className="flex text-white justify-center flex-1">
+        <ul className="flex text-white  text-2xl justify-center flex-1">
           <li className="p-4">Home</li>
           <li className="p-4">About</li>
           <li className="p-4">Services</li>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <li className="p-4">Gallery</li>
           <li className="p-4">Contact</li>
         </ul>
-        <button className="bg-[#cf1e6e] text-white px-6 py-2 rounded-md font-bold hover:bg-[#e82a6c] hover:text-white transition duration-300">
+        <button className="bg-[#cf1e6e] text-white text-xl px-16 py-4 rounded-md font-bold hover:bg-[#e82a6c] hover:text-white transition duration-300">
           Book Now
         </button>
       </div>
